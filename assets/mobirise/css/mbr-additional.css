@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#dropdown-menu-2btn-0 .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-2btn-0 .navbar-brand a {
+  font-family: 'Open Sans', sans-serif;
+}
+#dropdown-menu-2btn-0 .nav .link,
+#dropdown-menu-2btn-0 .dropdown-item {
+  font-size: 1.2em;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+#dropdown-menu-2btn-0 .navbar,
+#dropdown-menu-2btn-0 .dropdown-menu {
+  background: #333333;
+}
+#dropdown-menu-2btn-0 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-2btn-0 .dropdown-menu a:hover,
+#dropdown-menu-2btn-0 .dropdown-menu a:focus {
+  background: #292929;
+}
+#dropdown-menu-2btn-0 .navbar-toggler {
+  color: #ffffff;
+}
+#dropdown-menu-2btn-0 .btn {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+#header1-1 .btn {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+#header1-1 H1 {
+  font-family: 'Open Sans', sans-serif;
+}
+#header1-1 P {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+}
+#header1-1 B {
+  font-size: 20px;
+}
+#features1-4 .mbr-section__col .mbr-header__text {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  color: #40a11a;
+}
+#features1-4 .btn {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+#features1-4 P {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #000000;
+}
+#features1-4 B {
+  font-size: 18px;
+}
+#features1-5 .mbr-section__col .mbr-header__text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  text-align: left;
+  color: #40a11a;
+}
+#features1-5 B {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+}
+#features1-5 P {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #000000;
+}
+#form1-3 .mbr-header__text {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+}
+#form1-3 .btn {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+#video1-f B {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+#contacts1-7 P {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+#contacts1-7 STRONG {
+  font-size: 16px;
+}
+#contacts1-7 UL {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
