@@ -5,11 +5,12 @@
     "theme": {
       "name": "default",
       "title": "Mobirise",
-      "styling": {}
+      "styling": {},
+      "additionalSetColors": []
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 17,
-    "versionPublish": "3.12.1",
+    "uniqCompNum": 29,
+    "versionPublish": "4.3.0",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
   },
@@ -34,14 +35,15 @@
               "display": "none !important"
             },
             ".navbar-brand a": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-size": "20px"
             },
             ".nav .link, .dropdown-item": {
               "font-size": "1.2em",
               "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-family": "'Open Sans', sans-serif"
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-family": "'Roboto Condensed', sans-serif"
             },
             ".navbar, .dropdown-menu": {
               "background": "#333333"
@@ -61,19 +63,19 @@
           "_name": "dropdown-menu-2btn",
           "_anchor": "dropdown-menu-2btn-0",
           "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "transparent": false,
             "bgColor": "#333333",
             "fontSize": "1.2",
             "fontName": {
-              "name": "Open Sans",
-              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "css": "'Open Sans', sans-serif"
+              "name": "Roboto Condensed",
+              "url": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "css": "'Roboto Condensed', sans-serif"
             },
-            "fontColor": "#ffffff",
-            "transparent": false,
-            "sticky": true,
-            "logo": false,
-            "showBrand": true,
-            "hideButtons": false
+            "fontColor": "#ffffff"
           },
           "logo": {
             "image": {
@@ -85,8 +87,8 @@
               "link": "https://mobirise.com"
             }
           },
-          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">STUMP REMOVAL &nbsp; 317-331-8097</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\" aria-expanded=\"false\">START</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-4\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-3\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default btn-default-outline\" href=\"mailto:clearpathoutdoor@gmail.com\">EMAIL</a></li>"
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">INDIANASTUMP.COM &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 317-331-8097</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\" aria-expanded=\"false\">START</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box4-q\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-3\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default btn-default-outline\" href=\"mailto:clearpathoutdoor@gmail.com\">EMAIL</a></li>"
         },
         {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
@@ -101,41 +103,127 @@
               "font-size": "16px"
             },
             "H1": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-size": "36px"
             },
             "P": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-size": "22px"
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-size": "24px"
             },
             "B": {
-              "font-size": "20px"
+              "font-size": "24px",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            },
+            "SPAN": {
+              "font-size": "46px",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
             }
           },
           "_anchor": "header1-1",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/forest-path-4-2000x1250.jpg",
-            "bgColor": "#4c6972",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "contentAlign": "left",
-            "overlay": true,
-            "overlayOpacity": "0.5",
-            "overlayColor": "#222",
             "showTitle": true,
             "showText": true,
             "showButtons": false,
-            "showArrow": true
+            "showArrow": true,
+            "contentAlign": "left",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/forest-path-4-2000x1250.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": "0.5"
           },
-          "title": "<br><span style=\"color: inherit;\">CLEARPATH </span><span style=\"color: inherit; font-weight: normal;\">OUTDOOR</span><br>",
-          "text": "<b>Professional Stump Removal in Central Indiana. <br></b><br><b>If you have one stump or many, large or small, we're here to help with your project. </b><br><b> </b><br><b>Please Call or Text for a Free Estimate! &nbsp;</b><br>",
+          "title": "<span style=\"color: inherit;\"><br></span>PRO STUMP REMOVAL IN CENTRAL INDIANA",
+          "text": "<br>Please Call or Text for a Free Estimate.",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"index.html#form1-3\" data-toolbar=\"-mbrBtnMove\">FREE ESTIMATE</a> "
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#b8312f",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "images/iphone.png"
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "WELCOME",
+          "text": "<p>If you have one stump or many, large or small, we're here to help with your project! &nbsp;We're your source for stump grinding in Indianapolis!</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "text-align": "center"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-size": "20px",
+              "text-align": "center"
+            },
+            ".mbr-article P": {
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-size": "20px",
+              "text-align": "left"
+            }
+          },
+          "headerAlign": "center",
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-q"
         },
         {
           "_tags": [
@@ -144,9 +232,9 @@
           "_name": "features1",
           "_styles": {
             ".mbr-section__col .mbr-header__text": {
-              "text-align": "left",
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "text-align": "center",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
               "font-size": "22px",
               "color": "#40a11a"
             },
@@ -156,38 +244,41 @@
               "font-size": "15px"
             },
             "P": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-size": "18px",
-              "color": "#000000"
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-size": "20px",
+              "color": "#000000",
+              "text-align": "center"
             },
             "B": {
-              "font-size": "18px"
+              "font-size": "20px",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
             }
           },
           "_anchor": "features1-4",
           "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
             "showHeader": false,
             "showSubheader": false,
-            "columns": "3",
             "showImages": true,
             "showTitles": true,
             "showCaptions": true,
-            "showButtons": false
+            "showButtons": false,
+            "paddingTop": "3",
+            "paddingBottom": "2",
+            "columns": "2",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "headerAlign": "left",
           "header": "DROP-DEAD EASY WEBSITE MAKER",
@@ -214,12 +305,12 @@
             }
           },
           "title1": "PROFESSIONAL SERVICE",
-          "caption1": "<b>CLEARPATH Outdoor was founded by a Purdue Landscape Architect with 25 years of outdoor project experience. We're stump removal specialists and working to create</b><b>&nbsp;a new standard of service in stump removal.</b><br>",
+          "caption1": "Indiana Stump Removal was founded by a Purdue Landscape Architect with 25 years of outdoor project experience. We'll respond quickly, arrive on time and work safely with professional equipment. We also offer great pricing with secure credit card options.&nbsp;<br>",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/wooded-trail3-600x400.png",
+              "src": "@PROJECT_PATH@/assets/images/responsive-600x400.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -237,8 +328,8 @@
               "size": 0
             }
           },
-          "title2": "OWNER OPERATED",
-          "caption2": "<b>We're an owner operated business. You'll work directly with the owner throughout your project.  Have a question? Please&nbsp;ask!</b><br>",
+          "title2": "SAFE AND INSURED",
+          "caption2": "We follow pro safety standards, including utility location, personal safety equipment and screen guards around our machine. &nbsp;We're owner operated for easy communication and fully insured.<br>",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media3": {
             "image": {
@@ -262,7 +353,7 @@
             }
           },
           "title3": "RESPONSIVE",
-          "caption3": "<b>We'll reply to your request today and most projects are scheduled within a week. With a powerful machine, we'll work quickly to minimize the noise at your home.</b><br>",
+          "caption3": "<b>We'll reply to your request today and most projects are scheduled within a week. With a p</b><br>",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media4": {
             "image": {
@@ -332,10 +423,10 @@
           "_name": "features1",
           "_styles": {
             ".mbr-section__col .mbr-header__text": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
               "font-size": "22px",
-              "text-align": "left",
+              "text-align": "center",
               "color": "#40a11a"
             },
             "B": {
@@ -345,35 +436,36 @@
               "color": "#000000"
             },
             "P": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-size": "18px",
-              "color": "#000000"
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-size": "20px",
+              "color": "#000000",
+              "text-align": "center"
             }
           },
           "_anchor": "features1-5",
           "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
             "showHeader": false,
             "showSubheader": false,
-            "columns": "3",
             "showImages": true,
             "showTitles": true,
             "showCaptions": true,
-            "showButtons": false
+            "showButtons": false,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "columns": "2",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "headerAlign": "left",
           "header": "DROP-DEAD EASY WEBSITE MAKER",
@@ -381,7 +473,7 @@
           "media1": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/cutter-controls-600x403.jpg",
+              "src": "@PROJECT_PATH@/assets/images/4012-controls-600x359.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -401,13 +493,13 @@
               "size": 0
             }
           },
-          "title1": "PRO EQUIPMENT",
-          "caption1": "<b>We have the latest professional stump grinding equipment. Our compact machine will allow us to reach stumps with little to no lawn damage and we can easily fit through a 36\" gate.</b><br>",
+          "title1": "COMPACT EQUIPMENT",
+          "caption1": "With powerful but lightweight equipment, we can travel through your lawn without damage and easily fit through a 36\" gate. &nbsp;We're stump removal specialists, offering arborists and property owners prompt and reliable service.<br>",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/screen-guard.gif",
+              "src": "@PROJECT_PATH@/assets/images/stump-cutting-600x399.jpg",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -425,13 +517,13 @@
               "size": 0
             }
           },
-          "title2": "SAFE AND INSURED",
-          "caption2": "<b>We follow pro safety standards, including utility location, personal safety gear and guard screens around our machine to protect your home. We're also fully insured to work at your home or business.</b><br>",
+          "title2": "GETTING STARTED",
+          "caption2": "With your description by phone or text, we can usually provide a rough estimate and schedule your project today. &nbsp;After a two day wait for utility location, we'll arrive to grind your stump. &nbsp;We'll leave your area clean, with any remaining chips in a neat pile. &nbsp;Your tree mulch is valuable, useful in natural bed areas. &nbsp;Recycle your tree stump!<br>",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media3": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/wood-chips-1-600x392.jpg",
+              "src": "@PROJECT_PATH@/assets/images/wood%20chips%201-600x392.jpg",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -450,7 +542,7 @@
             }
           },
           "title3": "RECYCLE!",
-          "caption3": "<b>We'll grind your stump and surface roots to a depth of 8\"-12\", leaving you with a neat pile of wood chips in it's place. The valuable mulch can be later used in a natural bed area or compost pile. Recycle your tree stump!</b><br>",
+          "caption3": "",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media4": {
             "image": {
@@ -521,8 +613,8 @@
           "_styles": {
             ".mbr-header__text": {
               "text-align": "left",
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
               "font-size": "30px",
               "color": "#ffffff"
             },
@@ -534,23 +626,23 @@
           },
           "_anchor": "form1-3",
           "_params": {
+            "showTitle": true,
             "paddingTop": "3",
             "paddingBottom": "3",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/beach%20path%203-2000x1331.jpg",
-            "bgColor": "#faaf40",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#faaf40",
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "FREE ESTIMATE:",
           "form": {
-            "action": "jl4673@yahoo.com",
+            "action": "IndianaStump@gmail.com",
             "alerts": {
-              "success": "Thanks for filling out form!"
+              "success": "Thanks for contacting us!  We'll be in touch soon."
             },
             "fields": {
               "name": {
@@ -590,8 +682,8 @@
           "_name": "video1",
           "_anchor": "video1-f",
           "_params": {
-            "bgColor": "#252525",
-            "showText": false
+            "showText": false,
+            "bgColor": "#252525"
           },
           "media": {
             "image": {
@@ -610,61 +702,31 @@
           "text": "<b>Our manufacturer's video to illustrate our machine and process:</b>"
         },
         {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#444444",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2017 &nbsp;Indiana Stump Removal, 1907 Patton Dr.,&nbsp;Indianapolis, Indiana 46224",
           "_tags": [
             "Theme"
           ],
-          "_name": "contacts1",
+          "_name": "footer1",
+          "_anchor": "footer1-s",
           "_styles": {
             "P": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-size": "14px"
-            },
-            "STRONG": {
-              "font-size": "16px"
-            },
-            "UL": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-size": "15px"
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-size": "18px"
             }
-          },
-          "_anchor": "contacts1-7",
-          "_params": {
-            "paddingTop": "2",
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#3c3c3c",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/beach-path-3-265x176.jpg",
-              "class": "mbr-contacts__img mbr-contacts__img--left",
-              "width": 265,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "linkInNewWindow": false,
-              "name": "touch",
-              "family": "MobiriseIcons",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "text1": "<strong>ADDRESS</strong><br><br>CLEARPATH Outdoor<br>1907 Patton Dr.<br>Indianapolis, Indiana 46224",
-          "text2": "<strong>CONTACTS</strong><br>\n<br>Email: &nbsp;<br>CLEARPATHOUTDOOR<span style=\"line-height: 1.7em;\">@gmail.com</span><br>\nPhone: &nbsp;317-331-8097<br><br>",
-          "text3": "<div><font size=\"3\"><b><br></b></font></div><ul class=\"mbr-contacts__list\"><li><br></li></ul>"
+          }
         }
       ]
     }
